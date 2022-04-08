@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>THINK WE WELL</title>
+<meta name="title" content="THINK WE WELL">
+<meta name="description" content=" A beautiful blog about life where you can read about self-esteem, positive thinking, happiness, relationships and motivation.">
+<meta name="keywords" content="THINK WE WELL,quotes, book summary, positive thinking,thoughts,self-esteem blog">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="author" content="GANESH KUMAR">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+
+<!-- Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Font 1 -->
+<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@479;500&display=swap" rel="stylesheet">
+
+<!-- Font 2 -->
+<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=PT+Sans&family=Roboto:wght@300&family=Rubik:wght@500&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+}
+
+body{
+font-family: 'Fredoka', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+#header{
+top:0;
+display:flex;
+justify-content:space-between;
+background:white;
+ box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1); 
+}
+
+#header p{
+font-size:100%;
+font-weight:600;
+color: #213445; 
+padding:5%
+}
+.navbar{
+height:100%;
+width:0;
+position:fixed;
+z-index:1;
+top:0;
+left:0;
+background-color: lightcyan;
+transition:0.5s;
+overflow-x:hidden;
+}
+
+.nav-content{
+position:relative;
+width:100%;
+text-align:center;
+margin-top:20%;
+}
+
+.navbar a {
+  padding: 4%;
+  text-decoration: none;
+  font-size: 120%;
+  color:  #213445;
+  display: block;
+  transition: 0.3s;
+  font-weight:800;
+}
+
+.navbar a:hover, .navbar a:focus{
+color:black;
+}
+
+.navbar .closebtn {
+  position: absolute;
+  right: 10%;
+  font-size: 300%;
+} 
+
+/* Description */
+#desc{
+padding:10%;
+text-align:center;
+margin:5%;
+font-size: 120%;
+}
+
+#desc p{
+margin-top:2%;
+font-family: 'Grape Nuts', cursive;
+}
+
+#header a{
+text-decoration: none;
+color: #213445; 
+font-weight:800;
+}
+
+#header span{
+font-size:100%;
+cursor:pointer;
+color: #213445;
+padding:4%;
+font-weight:800;
+}
+
+.section1{
+padding:6%;
+}
+
+.section1 a{
+color: #213445;
+padding:5%;
+text-decoration: underline solid #213445;
+}
+
+.latest a:hover, a:focus{
+text-decoration: underlines dotted #213445;
+}
+
+
+footer{
+text-align: center;
+background:#161616;
+margin-top:5%;
+color:white;
+padding:5% ;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div id="myNav" class="navbar">
+<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+	<div class="nav-content">
+	<a href="https://thinkwewell.github.io" >HOME</a>
+	<a href="#" >BLOGS</a>
+	<a href="#" >ABOUT</a>
+	<a href="#" >CONTACT</a>
+	</div>
+	
+
+</div>
+
+<div id="header">
+<p><a href="https://thinkwewell.github.io" >THINK WE WELL</a></p>
+<span onclick="openNav()">&#9776;</span>
+</div>
+
+<div id="desc">
+<h3>THINK WE WELL</h3>
+<p>A beautiful blog about life where you can read about self-esteem, positive thinking, happiness, relationships, and motivation.</p>
+</div>
+
+<section class="section1">
+
+<h3>LATEST POSTS</h3>
+<div class="latest">
+<br>
+<a href="#" ><h4>WHY WE SHOULD FOLLOW OUR DREAMS? </h4></a>
+<br>
+<a href="#" ><h4>HOW TO BECOME HAPPY? 5 WAYS TO BE HAPPY</h4></a>
+
+</div>
+<br>
+<br>
+<div id="category">
+<h3>CATEGORIES</h3>
+<a href="#" ><p>QUOTES</p></a>
+<a href="#" ><p>LIFE </p></a>
+<a href="#" ><p>SUCCESS</p></a>
+<a href="#" ><p>LOVE</p></a>
+<a href="#" ><p>BOOKS</p></a>
+
+</div>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer>
+
+<h4>
+<a href="https://thinkwewell.github.io" style="text-decoration: none; color:orange;">THINK WE WELL</a>
+</h4>
+<p>Created With &#10084;</p>
+
+<p>Copyright © All Rights Reserved</p>
+</footer>
+ 
+ 
+ 
+ 
+</body>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+
+
+</script>
+</html>
